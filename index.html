@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimiento Sexo Diverso LGBTIQ+</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Movimiento Sexo Diverso LGBTIQ+</h1>
+        <p>Todos Somos Iguales</p>
+    </header>
+    <div class="container">
+        <div class="photos">
+            <img src="images/foto1.jpg" alt="Foto 1" onclick="expandImage(this)">
+            <img src="images/foto2.jpg" alt="Foto 2" onclick="expandImage(this)">
+            <img src="images/foto3.jpg" alt="Foto 3" onclick="expandImage(this)">
+            <img src="images/foto4.jpg" alt="Foto 4" onclick="expandImage(this)">
+        </div>
+        <div class="button-container">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeulRu4ES5MoEwAYa7mT0NDi3OAvE9VBT-KuQDERjgIJyLcQ/viewform?usp=sf_link" target="_blank">Inscríbete aquí</a>
+        </div>
+    </div>
+    <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+    <footer>
+        &copy; 2024 Movimiento Sexo Diverso LGBTIQ+. Todos los derechos reservados.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
